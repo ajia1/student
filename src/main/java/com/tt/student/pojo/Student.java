@@ -10,4 +10,8 @@ public class Student {
     public void setLogin(String login) {
         this.login = login;
     }
+
+    public Student(String login) {
+        this.login = login;
+    }
 }
